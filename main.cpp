@@ -3,19 +3,25 @@ using namespace std;
 
 class Point {
 public:
-    int x;
-    int y;
-    
-    void print() {
-        cout << "(" << x << ", " << y << ")" << endl;
-    }
+ int x;
+ int y;
+  void print(){
+    cout << "("<< x << "," << y << ")"<<endl;
+  }
 };
 
 int main() {
-    Point p2;
-    p2.x = 5;
-    p2.y = 15;
-    p2.print();  // (5, 15)
-    
-    return 0;
+  Point p1;
+  p1.x = 1;
+  p1.y = 2;
+  p1.print();
+  Point p2;
+  p2.x = 6;
+  p2.y = 7;
+  p2.print();
 }
+
+/*
+g++ main.cpp -o main
+./main
+ */ 
