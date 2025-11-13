@@ -10,6 +10,7 @@ public:
   }
 };
 
+
 int main() {
   Point p1;
   p1.x = 1;
